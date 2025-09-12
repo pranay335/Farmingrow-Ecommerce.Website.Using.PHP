@@ -1,0 +1,307 @@
+.new    
+{
+   height: 50vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://media.istockphoto.com/id/506164764/photo/tractor-spraying-soybean-field.jpg?s=612x612&w=0&k=20&c=h27yHr07QNSghYS20iwYBCGjZIa2HlXqrZDkM0ZsYEw=);
+   background-position: center;
+   margin-top: 5%;
+   background-size: cover;
+   text-align: center;
+   color: #fff;
+}
+.newh1{
+    font-size: 4rem;
+    margin-top: 8%;
+    margin-right: 150px;
+    text-align: center;
+}
+.space{
+    margin-top: 14.8%;
+}
+.info {
+    display: flex;
+    margin-top: -5%;
+    justify-content: center;
+    align-items: center;
+}
+.about-col {
+    flex: 1;
+    padding: 20px;
+}
+.simg {
+    width: 45%; /* Adjust image width */
+    margin-left: -15%;
+    
+    filter: none; /* Remove backdrop filter */
+}
+
+.container2 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 40%;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add margin-top to create gap */
+}
+
+
+
+.container1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: rgb(255, 149, 0);
+    border-bottom: 2px solid #ffa305;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+p {
+    text-align: justify;
+    line-height: 1.6;
+    color: black;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.container1:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+img {
+    max-width: 100%;
+    margin-left: 80px;
+    margin-top: -10px;
+    height: auto;
+    filter: drop-shadow(10px 7px 10px orange); /* Adding drop shadow */
+    transition: transform 0.3s ease-in-out; /* Adding transition for animation */
+}
+
+ /* not working */.container1:hover img { 
+    transform: translateY(-2px);
+    filter: drop-shadow(20px 14px 20px orange);
+}
+
+/*new section*/
+.show {
+    width: 120%;
+    margin: auto;
+    margin-left: -10%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.show .row {
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.show .campuscol {
+    flex-basis: calc(32% - 10px);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.show .campuscol .min {
+    width: 100%; /* Adjust width of images */
+    display: block;
+    border-radius: 10px;
+    filter: drop-shadow(10px 7px 10px orange);
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+}
+
+.show .campuscol:hover .min {
+    transform: scale(1.05); /* Add scale effect on hover */
+}
+
+.back1, .back2 {
+    display: flex;
+    flex-direction: column; /* Change to column to stack the elements */
+    align-items: center;
+    text-align: center;
+}
+
+.back1 h1 {
+    border: none;
+    color: #ff7800;
+    margin-top: 20px; /* Adjust as needed */
+}
+.back2 h1 {
+    border: none;
+    color: #ff7800;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.back1 h3, .back2 h3 {
+    color: #555555;
+    margin-top: 20px;
+    text-align: justify;
+    
+}
+
+.back1 {
+    background-color: #f9f9f9;
+    width: 40%;
+    margin-left: 120px;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+
+.back2 {
+    background-color: #f9f9f9;
+    width: 40%;
+    margin-left: 680px;
+    margin-top: -148px;
+    border-radius: 10px;
+}
+/* ... (previous CSS code) ... */
+
+.vision-mission {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.mission-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back11 {
+    background-color: #f9f9f9;
+    width: 40%;
+    
+    border-radius: 10px;
+    margin-top: 0px;
+    float: left;
+    clear: left;
+    margin-right: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+.back22 {
+    background-color: #f9f9f9;
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 0; /* Adjusted margin-top */
+    float: right;
+    clear: right;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+.back11 h1 {
+    border-bottom: 2px solid #ffa305;
+    color: #ff7800;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.back22 h1 {
+    border-bottom: 2px solid #ffa305;
+    color: #ff7800;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.back11 h3, .back22 h3 {
+    color: #555555;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(25% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.links {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.social_media {
+    margin-bottom: 20px;
+}
+
+.email {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #f8b400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #183153;
+}
+
+.payment-img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+
+
+
+
+/* ... (remaining CSS code) ... */
+
+
+
+
+
+
+
+
+
+
+
+

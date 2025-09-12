@@ -1,0 +1,125 @@
+/* Add some styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px; /* Increased font size */
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px; /* Increased font size */
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons div {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Search form styles */
+.search {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.search input[type="search"] {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #333;
+  font-size: 18px; /* Increased font size */
+  outline: none;
+}
+
+/* Order detail styles */
+#order-heading {
+  background-color: #ff8800;
+  color: #fff;
+  padding: 20px;
+  margin-top: 80px;
+  font-size: 22px;
+  text-align: center;
+}
+
+#order-heading p {
+  font-size: 18px; /* Increased font size */
+}
+#order-heading .h4{
+font-size: 20px;
+}
+
+.wrapper {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+/* Table styles */
+.loginHistory {
+  overflow-y: scroll;
+  margin-top: 40%;
+  margin: 20px;
+  width: 700px;
+  max-height:400px;
+  display:flex;
+}
+th, td {
+border-style: dotted;
+border: 1px solid black;
+}
+
+/* Close button styles */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 28px; /* Increased font size */
+  cursor: pointer;
+}
+#paymentButton {
+  background-color: #ff6600dd; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  margin-left: 45%;
+  margin-top: 20px;
+  font-size: 14px; /* Set font size */
+  cursor: pointer; /* Add cursor pointer */
+  border-radius: 5px; /* Add border radius */
+}
+
+#paymentButton:hover {
+  background-color: #ff4d00; /* Darker blue color on hover */
+}

@@ -1,0 +1,75 @@
+/* Bill Invoice Styles */
+.bill {
+    position: relative; /* Set position to relative */
+    max-width: 750px;
+    margin: 50px auto;
+    margin-top: 10%;
+    height: 430px; /* Set height to auto to accommodate variable content */
+    background: linear-gradient(to right, #4c669f, #3b5998, #192f6a); /* Updated gradient */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.bill h2, .bill h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.bill .thank-you {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.bill .order-info, .bill .customer-details {
+    margin-bottom: 20px;
+}
+
+.bill .order-info p, .bill .customer-details p {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.jk {
+    margin-top: 30px;
+    
+}
+
+.jk .p{
+    margin-left: 230px;
+    margin-top: -43px;
+}
+/* CSS for the bill invoice section */
+
+/* CSS for the image */
+.newimg {
+    position: absolute; /* Set position to absolute */
+    bottom: -50px; /* Adjust bottom spacing as needed */
+    right: 20px; /* Adjust right spacing as needed */
+}
+.di {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.di:hover {
+    background-color: #0056b3;
+}
+
+
+
+

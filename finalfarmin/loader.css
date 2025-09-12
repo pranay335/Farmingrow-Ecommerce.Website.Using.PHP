@@ -1,0 +1,32 @@
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#fff;/* Semi-transparent background */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1); /* Thicker border */
+    border-top-color: #f14f09; /* Change border color */
+    border-radius: 50%;
+    width: 60px; /* Increase size */
+    height: 60px; /* Increase size */
+    animation: spin 1s linear infinite;
+}   
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Hide the preloader after a specified time */
+.loaded .preloader {
+    display: none;
+}

@@ -1,0 +1,139 @@
+.newheader {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 8%;
+
+}
+.newheader h1{
+    margin-left: 5%;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 20%;
+}
+.container .bi{
+    margin-left: 10%;
+}
+.container .subon{
+    margin-right: 20%;
+}
+
+.container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3bc59a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #32a786;
+}
+
+#navigationBar {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#navigationBar button {
+    margin: 5px;
+    margin-left:20px;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    height:50px;
+    width:200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#navigationBar button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Form inputs */
+input[type="text"],
+input[type="number"],
+input[type="email"]
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* File input */
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+/* Submit button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width:450px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Submit button hover */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Form title */
+
+/* Error message */
+.error-message {
+    color: #f00;
+    margin-top: 10px;
+}
+
+#productTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#productTable th,
+#productTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}

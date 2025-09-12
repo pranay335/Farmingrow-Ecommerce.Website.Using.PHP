@@ -1,0 +1,174 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.navbar{
+    margin-left: -50px;
+}
+
+
+/* Form */
+form#comment-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(255, 161, 67);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #f86c00;
+}
+.j{
+    margin-top: 6.8%;
+}
+.q{
+    margin-top: 3%;
+}
+/* Comments */
+
+#comments {
+    display: flex;
+    justify-content:center
+    
+}
+
+.comment {
+    width: calc(30% - 20px); /* Adjust the width based on the number of comments */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.comment h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.comment p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.stars {
+    color: rgb(253, 116, 11);
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(25% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.links {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.social_media {
+    margin-bottom: 20px;
+}
+
+.email {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #f8b400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #183153;
+}
+
+.payment-img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+
+
+.stars {
+    color: gold;
+}

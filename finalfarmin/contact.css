@@ -1,0 +1,455 @@
+  /*Navbar*/
+  .header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space space-between;
+    padding: 2rem 9%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--black);
+  }
+  
+  /*logo colors farmingrow*/
+  .header .logo i{
+    color: var(--orange);
+    background: #fff;
+  }
+  .header .navbar{
+    padding-left:20%;
+  }
+  .header .icons{
+    padding-left: 10%;
+  }
+  .header .navbar a{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: var(--black);
+  }
+  .header .navbar a:hover{
+    color:var(--orange);
+  }
+  
+  .header .icons div{
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: .5rem;
+  background: #fff;
+  color: var(--black);
+  font-size: 2rem;
+  cursor: pointer;
+  margin-right: .3rem;
+  text-align: center;
+  }
+  
+  .header .icons div:hover{
+    background: var(--orange);
+   color: #eee;
+  }
+  
+  #menubtn{
+    display: none ;
+  }
+  .header .search{
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 50rem;
+    height: 5rem;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    border-radius: .5rem;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+  }
+  .header .search.active{
+    right: 2rem;
+    transition: .2s linear;
+  }
+  
+  .header .search input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 0 1rem;
+  
+  }
+  
+  .header .search label{
+    font-size: 2.2rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+  }
+  .header .search label:hover{
+    color: var(--orange);
+  }
+  
+  .header .shoppingcart{
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: var(--black);
+    width: 35rem;
+    background: #fff;
+  
+  }
+  .header .shoppingcart.active
+  {
+    right: 2rem;
+    transition: .4s ease-in;
+  }
+  
+  
+  .header .shoppingcart .box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    margin: 1rem 0;
+  }
+  
+  
+  .header .shoppingcart .box img{
+    height: 10rem;
+    border-radius: 20%;
+  
+  }
+  
+  .header .shoppingcart .box .fa-trash{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    cursor: pointer;
+    color: var(--light-color);
+    transform: translateY(-50%);
+  }
+  
+  .header .shoppingcart .box .fa-trash:hover{
+    color: var(--orange);
+  }
+  .header .shoppingcart .box .content h3{
+    color: var(--black);
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+  }
+  
+  .header .shoppingcart .box .content span{
+    color: var(--light-color);
+    font-size: 1.6rem;
+    
+  }
+  
+  .header .shoppingcart .box .content .quantity{
+    padding-left: 1rem;
+  }
+  
+  .header .shoppingcart .total{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--black);
+  }
+  .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border: .2rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+  }
+  .btn:hover{
+    background: var(--orange);
+    color: #fff;
+  }
+  
+  .header .shoppingcart .btn{
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+  
+  }
+  /*navbar end*/
+  
+  
+  
+  .ov {
+    position: relative;
+    z-index: 0; /* Ensure the .ov div appears in front of other elements */
+    margin-top: 50px;
+
+}
+
+.ci {
+    position: relative;
+    margin-top: -1%;
+    width: 100%;
+    height: 10%; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.ci img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px); /* Adjust blur intensity as needed */
+}
+
+  
+  
+  
+  
+  
+  
+  
+  .contact {
+    padding: 130px 0;
+  }
+  
+  .contact .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 0px;
+    margin-top: -50px;
+  
+  }
+  
+  .contact .heading h2 span {
+    color: #ffffff;
+  }
+  
+  .contact .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #353535;
+    margin: 20px 0 60px;
+    padding: 0;
+  }
+  
+  .contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #ff9100;
+    color: #ffffff;
+  }
+  
+  .contact .title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 70px;
+  }
+  
+  .contact .title p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #494949;
+    line-height: 1.6;
+    margin-left: 70px;;
+  }
+  
+  .contact .content .info {
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  .contact .content .info i {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #02434b;
+    margin-right: 20px;
+    text-align: center;
+    width: 20px;
+  }
+  .contact .content .info h4 {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  
+  .contact .content .info h4 span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #000000;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*form*/
+  
+  
+  /* Form styling */
+  .form1 {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-left: 42%;
+    margin-top: -25%;
+  }
+  
+  /* Input styling */
+  .form-control1,
+  .form-control2,
+  .form-control3,
+  .form-control4 {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Add focus style for input */
+  .form-control1:focus,
+  .form-control2:focus,
+  .form-control3:focus,
+  .form-control4:focus {
+    border-color: #ff7800;
+  }
+  
+  /* Textarea styling */
+  .form-control4 {
+    resize: none;
+  }
+  
+  /* Button styling */
+  .newbtn {
+    background-color: #ff9f4b;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Make the button a block-level element */
+    margin: 0 auto; /* Center the button horizontally */
+  }
+  
+  /* Add hover effect to the button */
+  .newbtn:hover {
+    background-color: #ff7800;
+  }
+  
+  
+  /* Responsive styles for small screens */
+  @media (max-width: 768px) {
+    .form1 {
+        width: 100%;
+    }
+  }
+  
+  
+  
+  /*footer*/
+  .footer  {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 40px 0;
+  }
+  .footer  .box-container h3{
+    color:#ff7800;
+  }
+  
+  .footer  .box-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  
+  .footer .box {
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .footer .box h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /*Social media*/
+  .footer .share {
+    padding-top: 5%;
+  }
+  .footer .share a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 2.7em;
+    padding-top: 1%;
+  }
+  .footer .share a:hover{
+    color: #5a91f1;
+    border-color: #4481eb;
+  }
+  
+  
+  .footer .social_media{
+    font-size: 1.7em;
+    padding-top: 1%;
+  }
+  
+  
+  .footer .links {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-size: 1.7em;
+  }
+  .footer .links:hover{
+    color: #5a91f1;
+    border-color: #4481eb;
+  }
+  
+  
+  /*footer end here*/
+  .location
+  {
+  width: 80%;
+  margin: auto;
+  margin-top: -50px;
+  padding: 80px 0;
+  border-radius: 20px;
+  }
+  .location iframe{
+      width: 100%;
+  }

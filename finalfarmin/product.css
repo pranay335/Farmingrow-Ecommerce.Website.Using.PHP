@@ -1,0 +1,80 @@
+.section {
+  display: grid;
+  grid-template-columns:repeat(4,minmax(50px,1fr)); /* Define 4 equal-width columns */
+  gap: 50px; /* Add some gap between grid items */
+  justify-content: center; /* Horizontally center grid items */
+  align-items: center; /* Vertically center grid items */
+ /* Add padding around the grid */
+  margin:10px;
+ 
+ 
+}
+.form-container
+{
+  width: 95%; /* Set the width of the container */
+  border-radius: 30px;
+  margin-bottom: 100px;
+  height:auto;
+
+}
+.veg{
+  margin-top: -7%;
+}
+.detail
+{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.product:hover{
+  outline-offset: 0rem, solid;
+  outline: var(--outline-hover);
+}
+.product {
+  border-radius:30px;
+  width: 300px;
+  text-align: center;
+  background-color: #DCE0E1;
+  padding: 20px;
+  box-shadow: 0 10px 20px #9ba0a0;
+  letter-spacing: 1px;
+ 
+}
+
+.product img {
+  width: 100%; /* Make the image fill the container */
+  height:200px;
+  
+  border-radius: 10px 10px 10px 10px; /* Round only the top corners */
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.price {
+  font-size: 30px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.add-to-cart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px; /* Increase padding */
+  margin-top: 20px; /* Increase margin */
+  cursor: pointer;
+  text-decoration: none; /* Remove default button underline */
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}
+.stars{
+  color: rgb(246, 185, 3);
+  font-size: 12px;
+}
